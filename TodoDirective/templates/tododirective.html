@@ -1,0 +1,34 @@
+<div class="small-container well">
+	<div class="bold">
+		What do you want to do today?
+	</div>
+
+	<div class="margin-top-20">
+		<input ng-model="todoModel" type="text" class="form-control" placeholder="Your todo..." />
+	</div>
+
+	<div class="margin-top-20">
+		<button ng-click="addTodo()" type="button" id="submit-todo" class="btn btn-primary">Submit Todo</button>
+	</div>
+</div>
+
+<div id="todo-list" class="small-container">
+	<ol ng-repeat="todo in todos" class="bouncy-slide-top">
+		<li> 
+		  <span ng-switch="todo.completed" >
+		    <span ng-switch-when="true">
+		      <strike>
+		        {{ todo.name }} 
+		      </strike>
+		    </span>
+            <span ng-switch-when="false">
+		        {{ todo.name }} 
+		    </span>
+		  </span>
+		  &nbsp;
+		  <a href="#" ng-click="completeTodo(todo)">Complete</a>
+		  &nbsp;
+		  <a href="#" ng-click="deleteTodo(todo)">Delete</a>
+		</li>
+	</ol>
+</div>

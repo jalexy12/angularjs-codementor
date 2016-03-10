@@ -1,0 +1,30 @@
+<div>
+  <input type=text ng-model="testModel" />
+    </div>
+    <div>
+        {{ testModel }}
+    </div>
+    <table>
+      <tr>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Age</td>
+        <td>Username</td>  
+      </tr>
+      <tr ng-repeat="user in users">
+         <td>{{ user.firstname }}</td>
+         <td>{{ user.lastname }}</td>
+         <td>{{ user.age }}</td>
+         <td>{{ user.username }}</td>
+      </tr>
+    </table>
+    <div>
+        <button ng-click="loadUsers();">Load Users</button>
+    </div>
+    <div>
+        <button ng-click="loadData()">Load Data</button>
+</div>
+<a href="#/page2">Go to page 2</a>
+<div>
+  <say-hello type="whatever"></say-hello>
+</div>

@@ -1,0 +1,36 @@
+Class Notes: 
+
+Clear communication of online tools before we start
+
+Technical issues are a pain in the ass 
+
+Very slow pacing at first(half hour)  due to technical difficulties and laggers
+
+Many concepts were introduced via questions
+
+zoom.us for video chat
+
+slack for communication
+
+koding.com for an online IDE
+
+Often times going through a concept relatively quickly, and then going back and doing a complete overview
+
+follow along with him > discuss
+
+Stopping very frequently after introducing something to ask questions
+
+Clearly stating what we should have gotten out of the lesson of the day afterwards, and opened it up to questions afterwards
+
+Recorded version of the lesson available the day after the course
+ 
+
+
+My Notes:
+
+Expression: {{ }} used to tell angular we want to display something
+
+Controllers: Handdle the business logic of our angular application
+
+Directive: ng-whatever, tells angular we have something here
+ 
